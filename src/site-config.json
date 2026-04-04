@@ -1,0 +1,536 @@
+{
+  "business": {
+    "name": "Legacy Masonry",
+    "phone": "555-mas-r94",
+    "category": "masonry",
+    "city": "Philadelphia",
+    "state": "PA"
+  },
+  "design": {
+    "preset": {
+      "id": "masonry-heritage-craft",
+      "categoryGroup": "masonry",
+      "name": "Heritage Craft",
+      "recipeFile": "masonry/heritage-craft.astro",
+      "colors": {
+        "primary": "#6B5335",
+        "primaryDark": "#534533",
+        "primaryLight": "#d6cec4",
+        "secondary": "#766248",
+        "accent": "#6B5335",
+        "background": "#F5F2ED",
+        "backgroundAlt": "#766248",
+        "surface": "#EDEAE4",
+        "text": "#1A1510",
+        "textLight": "#4A4540",
+        "textOnDark": "#F5F2ED",
+        "border": "#D5CEBC"
+      },
+      "typography": {
+        "headingFont": "Playfair Display",
+        "headingWeight": "600",
+        "bodyFont": "Libre Franklin",
+        "bodyWeight": "400",
+        "headingStyle": "normal",
+        "scale": "1.25"
+      },
+      "shape": {
+        "borderRadius": "4px",
+        "buttonRadius": "4px",
+        "cardRadius": "6px",
+        "shadowStyle": "subtle"
+      },
+      "sections": {
+        "heroStyle": "dark",
+        "sectionAlternation": [
+          "light",
+          "surface",
+          "light",
+          "surface",
+          "light"
+        ],
+        "animationStyle": "fade",
+        "spacingScale": "generous"
+      }
+    },
+    "recipeId": "masonry/heritage-craft"
+  },
+  "content": {
+    "homepage": {
+      "heroHeadline": "Philadelphia's Trusted Masonry Experts",
+      "heroSubline": "Built to last in Philly's toughest conditions. We restore and strengthen historic brickwork with techniques proven against Nor'easters and freeze-thaw cycles.",
+      "aboutTitle": "Built on Philadelphia Pride",
+      "aboutText": [
+        "Since 2012, Legacy Masonry has been preserving Philadelphia's architectural heritage one brick at a time. Founded by third-generation masons, we understand how Philly's unique climate and aging infrastructure demand specialized solutions.",
+        "We don't cut corners. Every tuckpointing job, chimney rebuild, and foundation repair follows historic preservation standards while incorporating modern durability. Our crews train continuously on Philadelphia-specific challenges like row house settlement and salt damage.",
+        "When we're not restoring Rittenhouse Square brownstones, we're volunteering masonry skills for neighborhood playgrounds and community gardens. This city built us - we return the favor daily."
+      ],
+      "valueProps": [
+        {
+          "title": "Philly-Proven Methods",
+          "description": "Our mortar mixes and techniques are formulated specifically for Philadelphia's freeze-thaw cycles and humid summers."
+        },
+        {
+          "title": "Historic Expertise",
+          "description": "We replicate original craftsmanship on pre-war homes while reinforcing structural integrity for modern demands."
+        },
+        {
+          "title": "No Surprise Pricing",
+          "description": "Fixed bids include full material testing and engineering assessments - no hidden costs halfway through."
+        },
+        {
+          "title": "Emergency Response",
+          "description": "24/7 availability for storm damage repairs when your rowhouse chimney starts shedding bricks."
+        }
+      ],
+      "ctaHeadline": "Protect Your Investment",
+      "ctaSubline": "Schedule a free masonry assessment with our lead estimator today."
+    },
+    "services": [
+      {
+        "slug": "brick-tuckpointing",
+        "name": "Brick Tuckpointing",
+        "shortDescription": "Precision mortar replacement that stops water infiltration in Philadelphia's historic brickwork.",
+        "description": "Philadelphia's freeze-thaw cycles destroy aging mortar joints faster than anywhere in the Northeast. Our tuckpointing process begins with mortar analysis to match original composition, followed by surgical removal of deteriorated sections without damaging surrounding bricks.\n\nWe use lime-based mortars that allow historic masonry to breathe while resisting salt damage from winter streets. Every joint is tooled to match existing profiles - whether it's the concave joints on Society Hill townhomes or flush finishes on industrial loft conversions. Post-work, we apply penetrating sealants only where needed to prevent trapping moisture behind facades.",
+        "process": [
+          "Step 1: Mortar sampling and structural assessment",
+          "Step 2: Precision grinding of failed joints (1/4\"-1/2\" depth)",
+          "Step 3: Hand-packed mortar application with period-appropriate tools",
+          "Step 4: 48-hour curing protection and final inspection"
+        ],
+        "benefits": [
+          "Prevents costly brick spalling from water penetration",
+          "Maintains historic tax credit eligibility",
+          "Extends wall lifespan 25+ years",
+          "Reduces winter heating loss through gaps"
+        ],
+        "faq": [
+          {
+            "question": "How often should Philly rowhouses be tuckpointed?",
+            "answer": "Most historic brick needs repointing every 30-50 years, but units near busy roads with street salt exposure may require attention every 20 years."
+          },
+          {
+            "question": "Will new mortar change my brick's appearance?",
+            "answer": "We custom-tint mortars to blend seamlessly and can artificially weather new joints upon request for uniform aesthetics."
+          }
+        ]
+      },
+      {
+        "slug": "chimney-rebuilding",
+        "name": "Chimney Rebuilding",
+        "shortDescription": "Structurally sound chimney restorations that withstand Philly's Nor'easters.",
+        "description": "From Chestnut Hill stone chimneys to Fishtown's brick stacks, we rebuild Philadelphia chimneys to handle 90mph winds and ice dams. Our process starts with thermal imaging to identify hidden frost damage, followed by complete disassembly of compromised sections using historical bricklaying patterns.\n\nWe install stainless steel liners and seismic ties on all rebuilds - critical for older homes near subway lines. Flashing details follow Philadelphia Roofing Code amendments for ice belt protection. For landmark districts, we source reclaimed brick from local salvage yards to maintain period authenticity.",
+        "process": [
+          "Step 1: Core sample analysis and stability testing",
+          "Step 2: Custom scaffolding setup for tight rowhouse alleys",
+          "Step 3: Brick-by-brick reconstruction with reinforced footing",
+          "Step 4: Pressure testing and crown seal application"
+        ],
+        "benefits": [
+          "Eliminates fire hazards from cracked flues",
+          "Prevents attic leaks during heavy rains",
+          "Meets strict Philadelphia historical standards",
+          "Includes 10-year wind warranty"
+        ],
+        "faq": [
+          {
+            "question": "Can you match my original 19th-century brick?",
+            "answer": "Our relationships with local reclaim yards allow us to source period-appropriate materials, including handmade bricks with original sand finishes."
+          },
+          {
+            "question": "How long until I can use my fireplace?",
+            "answer": "New masonry requires 30 days of curing before first use. We provide temporary caps during this period."
+          }
+        ]
+      },
+      {
+        "slug": "stone-foundation-repair",
+        "name": "Stone Foundation Repair",
+        "shortDescription": "Stabilizing Philadelphia's aging fieldstone foundations against shifting soils.",
+        "description": "The Delaware Valley's clay-heavy soils wreak havoc on historic stone foundations. Our repair process combines traditional dry-stone techniques with modern stabilization methods. After excavating to footer depth, we install helical piers in problem areas while preserving original stonework where structurally sound.\n\nFor Victorian homes in West Philly, we replicate rubble stone patterns using locally quarried materials. All repairs include French drain systems to manage the high water table. We coordinate directly with Philadelphia L&I for permit approvals on structural modifications.",
+        "process": [
+          "Step 1: Laser level assessment and soil testing",
+          "Step 2: Temporary shoring installation",
+          "Step 3: Stone resetting with lime-based grout",
+          "Step 4: Drainage system integration"
+        ],
+        "benefits": [
+          "Stops basement water infiltration",
+          "Corrects door/window alignment issues",
+          "Prevents further settlement damage",
+          "Maintains historic character"
+        ],
+        "faq": [
+          {
+            "question": "Will repairs disturb my finished basement?",
+            "answer": "We use mini-excavators for interior work and contain dust with industrial barriers. Most projects require just 2-3 days of interior access."
+          },
+          {
+            "question": "How do you handle shared foundation walls?",
+            "answer": "We file party wall agreements and coordinate access with adjoining property owners per Philadelphia code requirements."
+          }
+        ]
+      },
+      {
+        "slug": "brick-walkway-installation",
+        "name": "Brick Walkway Installation",
+        "shortDescription": "Durable brick pavements designed for Philadelphia's foot traffic and winters.",
+        "description": "From Rittenhouse Square gardens to Northern Liberties courtyards, we build brick walkways that withstand decades of Philadelphia use. Our installations begin with 12\" gravel bases and edge restraints to prevent frost heave damage. We use vitrified pavers with non-slip finishes for icy conditions.\n\nPatterns range from traditional herringbone to contemporary running bonds, with custom options for historic districts. All joints receive polymeric sand that resists weed growth and ant colonies. We grade all paths to divert runoff from building foundations.",
+        "process": [
+          "Step 1: Subsoil compaction testing",
+          "Step 2: Grading for 1/4\" per foot slope",
+          "Step 3: Hand-laid brick installation",
+          "Step 4: Joint sealing and sealing"
+        ],
+        "benefits": [
+          "Eliminates tripping hazards from settled paths",
+          "Reduces ice accumulation vs. concrete",
+          "Enhances curb appeal",
+          "Easy snow removal"
+        ],
+        "faq": [
+          {
+            "question": "How thick should brick walkways be in Philly?",
+            "answer": "We recommend 2 3/8\" thick pavers over 12\" base for residential use - commercial areas require 3\" thickness."
+          },
+          {
+            "question": "Can you match my existing brick?",
+            "answer": "We maintain samples from local brickyards dating to the 1800s for seamless repairs to historic properties."
+          }
+        ]
+      },
+      {
+        "slug": "concrete-parging",
+        "name": "Concrete Parging",
+        "shortDescription": "Protective coatings for Philadelphia's vulnerable foundation walls.",
+        "description": "Philadelphia's basement walls need defense against hydrostatic pressure and road salt. Our parging process uses polymer-modified mixes that bond permanently to existing masonry. After pressure washing to remove efflorescence, we apply two coats with reinforcing mesh at stress points.\n\nThe finished surface resists 1500psi compressive strength - crucial for rowhouses with narrow alley drainage. We texture finishes to match surrounding masonry and include vapor-permeable waterproofing for complete protection. All work comes with freeze-thaw cycle testing reports.",
+        "process": [
+          "Step 1: Surface preparation with diamond grinding",
+          "Step 2: Hydraulic cement patching of major voids",
+          "Step 3: Reinforced base coat application",
+          "Step 4: Finish coat with custom tooling"
+        ],
+        "benefits": [
+          "Stops radon gas penetration",
+          "Reduces basement humidity",
+          "Hides cosmetic damage",
+          "Extends foundation life"
+        ],
+        "faq": [
+          {
+            "question": "How long before parging needs replacement?",
+            "answer": "Our mixes typically last 15-20 years in Philadelphia conditions - twice as long as standard mixes."
+          },
+          {
+            "question": "Will it work on crumbling foundations?",
+            "answer": "We first stabilize severely damaged walls with carbon fiber straps before parging for permanent results."
+          }
+        ]
+      }
+    ],
+    "reviews": [
+      {
+        "name": "Marcus T.",
+        "rating": 5,
+        "service": "Chimney Rebuilding",
+        "text": "Legacy saved our 1920s chimney after a Nor'easter took out the top courses. They sourced matching brick from a demolished factory in Kensington and rebuilt it with stainless steel reinforcement. Two winters later - not a single loose brick.",
+        "date": "2025-03-15"
+      },
+      {
+        "name": "Eleanor R.",
+        "rating": 5,
+        "service": "Brick Tuckpointing",
+        "text": "The team restored our Society Hill townhouse's Flemish bond brickwork perfectly. They even matched the original oyster shell mortar color by analyzing samples under our porch. Historic Commission approved the work without revisions.",
+        "date": "2025-01-22"
+      },
+      {
+        "name": "Javier M.",
+        "rating": 5,
+        "service": "Stone Foundation Repair",
+        "text": "Our Manayunk basement stopped flooding after Legacy repointed the fieldstone and installed a proper drainage system. They worked around our finished walls with minimal disruption and explained every step in detail.",
+        "date": "2024-11-30"
+      },
+      {
+        "name": "Danielle K.",
+        "rating": 5,
+        "service": "Brick Walkway Installation",
+        "text": "The new herringbone walkway handles our dog-walking traffic and Philly winters better than the old concrete ever did. Crew cleaned up every day and finished ahead of schedule despite January weather.",
+        "date": "2024-12-18"
+      },
+      {
+        "name": "Thomas W.",
+        "rating": 5,
+        "service": "Concrete Parging",
+        "text": "After three failed attempts by other contractors, Legacy's parging finally stopped our basement leaks. Their custom mix includes some additive that prevents salt damage from the sidewalk. Dry all last spring during heavy rains.",
+        "date": "2025-02-05"
+      },
+      {
+        "name": "Rebecca S.",
+        "rating": 5,
+        "service": "Brick Tuckpointing",
+        "text": "Found Legacy when the mortar on our Fishtown rowhouse started falling out in chunks. They identified improper Portland cement repairs from the 80s as the culprit and fixed it right with lime mortar. No more spalling bricks above our front door.",
+        "date": "2024-10-11"
+      }
+    ],
+    "seo": {
+      "homepage": {
+        "title": "Philadelphia Masonry Contractors | Brick & Stone Experts",
+        "description": "Legacy Masonry preserves Philadelphia's historic brickwork with specialized tuckpointing, chimney repairs, and foundation solutions since 2012."
+      },
+      "about": {
+        "title": "About Our Philadelphia Masonry Company",
+        "description": "Learn how Legacy Masonry's local expertise protects Philly homes from freeze-thaw damage and structural decay."
+      },
+      "services": {
+        "title": "Philadelphia Masonry Services | Brick & Stone Repair",
+        "description": "Specialized masonry services for Philadelphia homes including tuckpointing, chimney rebuilding, and historic foundation repairs."
+      },
+      "contact": {
+        "title": "Contact Philly Masonry Experts | Free Estimates",
+        "description": "Schedule your masonry assessment with Legacy's Philadelphia team. Emergency storm damage repairs available 24/7."
+      },
+      "reviews": {
+        "title": "Philadelphia Masonry Customer Reviews",
+        "description": "See why Philly homeowners trust Legacy Masonry for historic brick restoration and structural repairs."
+      },
+      "service-areas": {
+        "title": "Philadelphia Masonry Service Areas",
+        "description": "Serving Philadelphia and surrounding communities with expert brick, stone, and concrete masonry services."
+      }
+    },
+    "companyInfo": {
+      "yearsInBusiness": 12,
+      "projectsCompleted": "800+",
+      "satisfaction": "97%",
+      "teamSize": "20+"
+    },
+    "serviceAreas": [
+      {
+        "city": "Philadelphia",
+        "slug": "philadelphia-pa",
+        "state": "PA",
+        "content": "Legacy Masonry proudly serves Philadelphia, providing expert masonry services for both historic and modern properties. Whether you need brickwork, stonework, or concrete repairs, our skilled craftsmen are equipped to handle projects of any scale. From restoring historic landmarks to constructing new residential and commercial buildings, we bring precision and artistry to every job. Philadelphia's diverse architecture demands high-quality masonry, and we are committed to preserving and enhancing the city's unique character through our work.",
+        "localContext": "Philadelphia is known for its rich history, iconic brick row houses, and historic landmarks like Independence Hall.",
+        "nearbyAreas": [
+          "Camden",
+          "Cherry Hill",
+          "Bensalem"
+        ]
+      },
+      {
+        "city": "Bensalem",
+        "slug": "bensalem-pa",
+        "state": "PA",
+        "content": "Legacy Masonry is a trusted name in Bensalem, offering top-tier masonry services for homes and businesses. Our team specializes in brick and stone installations, repairs, and custom designs tailored to the community's needs. Whether you're looking to enhance your property's curb appeal or need structural repairs, we deliver durable and aesthetically pleasing results. Bensalem's growing residential and commercial sectors make it a key area for our high-quality masonry services.",
+        "localContext": "Bensalem is a bustling suburb with a mix of residential neighborhoods and commercial developments.",
+        "nearbyAreas": [
+          "Philadelphia",
+          "Levittown",
+          "Langhorne"
+        ]
+      },
+      {
+        "city": "Cherry Hill",
+        "slug": "cherry-hill-pa",
+        "state": "PA",
+        "content": "In Cherry Hill, Legacy Masonry provides exceptional masonry services to homeowners and businesses alike. Our expertise includes brickwork, stone veneer, and concrete installations that enhance both functionality and beauty. Cherry Hill's upscale neighborhoods and commercial properties benefit from our attention to detail and commitment to quality. Whether it's a new construction project or a restoration, we ensure lasting results that meet the highest standards.",
+        "localContext": "Cherry Hill is a thriving community known for its excellent schools, shopping centers, and well-maintained homes.",
+        "nearbyAreas": [
+          "Camden",
+          "Voorhees",
+          "Haddonfield"
+        ]
+      },
+      {
+        "city": "Camden",
+        "slug": "camden-pa",
+        "state": "PA",
+        "content": "Legacy Masonry serves Camden with reliable and professional masonry solutions. From brick repairs to stone facades, we cater to both residential and commercial clients. Camden's historic buildings and newer developments alike require skilled craftsmanship, and our team is up to the task. We take pride in contributing to the city's revitalization through high-quality masonry work that stands the test of time.",
+        "localContext": "Camden is a city with a rich industrial history and ongoing redevelopment efforts.",
+        "nearbyAreas": [
+          "Philadelphia",
+          "Cherry Hill",
+          "Gloucester City"
+        ]
+      },
+      {
+        "city": "Levittown",
+        "slug": "levittown-pa",
+        "state": "PA",
+        "content": "Legacy Masonry is a go-to provider for masonry services in Levittown, offering everything from brick patios to stone walls. Our team understands the unique needs of Levittown's mid-century homes and modern developments. We combine traditional techniques with modern materials to deliver stunning and durable results. Whether you're updating your home or repairing a commercial property, we provide personalized service and expert craftsmanship.",
+        "localContext": "Levittown is one of the nation's first planned suburban communities, featuring a mix of classic and contemporary homes.",
+        "nearbyAreas": [
+          "Bensalem",
+          "Langhorne",
+          "Fairless Hills"
+        ]
+      },
+      {
+        "city": "Haddonfield",
+        "slug": "haddonfield-pa",
+        "state": "PA",
+        "content": "In Haddonfield, Legacy Masonry delivers premium masonry services tailored to the town's historic charm and modern needs. Our work includes brick and stone repairs, custom fireplaces, and landscape masonry that complements Haddonfield's elegant aesthetic. The town's historic districts require specialized care, and our team is experienced in preserving and enhancing these properties. Trust us to bring craftsmanship and reliability to your next project.",
+        "localContext": "Haddonfield is a picturesque borough known for its colonial-era homes and vibrant downtown.",
+        "nearbyAreas": [
+          "Cherry Hill",
+          "Voorhees",
+          "Collingswood"
+        ]
+      },
+      {
+        "city": "Langhorne",
+        "slug": "langhorne-pa",
+        "state": "PA",
+        "content": "Legacy Masonry provides expert masonry services in Langhorne, helping homeowners and businesses achieve beautiful, durable results. From brick walkways to stone retaining walls, our projects enhance both functionality and curb appeal. Langhorne's blend of historic and contemporary properties makes it an ideal location for our versatile masonry skills. We take pride in delivering personalized service and top-quality workmanship for every client.",
+        "localContext": "Langhorne is a charming town with a mix of historic sites and modern amenities.",
+        "nearbyAreas": [
+          "Levittown",
+          "Bensalem",
+          "Newtown"
+        ]
+      },
+      {
+        "city": "Voorhees",
+        "slug": "voorhees-pa",
+        "state": "PA",
+        "content": "Legacy Masonry serves Voorhees with high-quality masonry solutions for residential and commercial properties. Our services include brick and stone installations, repairs, and custom designs that elevate any space. Voorhees' growing community benefits from our expertise in creating durable and visually appealing structures. Whether it's a new construction project or a renovation, we ensure precision and excellence in every detail.",
+        "localContext": "Voorhees is a suburban township known for its parks, shopping centers, and family-friendly atmosphere.",
+        "nearbyAreas": [
+          "Cherry Hill",
+          "Haddonfield",
+          "Gibbsboro"
+        ]
+      },
+      {
+        "city": "Gloucester City",
+        "slug": "gloucester-city-pa",
+        "state": "PA",
+        "content": "Legacy Masonry is proud to serve Gloucester City with professional masonry services tailored to the community's needs. From brick repairs to stone veneer installations, we handle projects of all sizes with skill and care. Gloucester City's mix of historic and modern properties requires versatile masonry solutions, and our team is up to the challenge. We are committed to delivering durable and attractive results that enhance the city's appeal.",
+        "localContext": "Gloucester City is a riverside community with a rich industrial heritage and scenic views.",
+        "nearbyAreas": [
+          "Camden",
+          "Brooklawn",
+          "Westville"
+        ]
+      },
+      {
+        "city": "Newtown",
+        "slug": "newtown-pa",
+        "state": "PA",
+        "content": "In Newtown, Legacy Masonry offers expert masonry services for homes and businesses. Our work includes brick and stone installations, repairs, and custom designs that reflect the town's classic charm. Newtown's historic district and newer developments alike benefit from our craftsmanship and attention to detail. Whether you're restoring a colonial-era home or building a new property, we provide reliable and beautiful masonry solutions.",
+        "localContext": "Newtown is a historic borough with a quaint downtown and well-preserved architecture.",
+        "nearbyAreas": [
+          "Langhorne",
+          "Yardley",
+          "Washington Crossing"
+        ]
+      },
+      {
+        "city": "Collingswood",
+        "slug": "collingswood-pa",
+        "state": "PA",
+        "content": "Legacy Masonry serves Collingswood with top-notch masonry services that enhance the town's vibrant character. From brick patios to stone facades, our projects are designed to last and impress. Collingswood's mix of historic homes and modern renovations makes it a perfect fit for our versatile skills. We take pride in contributing to the community's beauty and durability through high-quality masonry work.",
+        "localContext": "Collingswood is a walkable borough known for its artsy vibe, farmers' market, and historic homes.",
+        "nearbyAreas": [
+          "Haddonfield",
+          "Oaklyn",
+          "Westmont"
+        ]
+      },
+      {
+        "city": "Yardley",
+        "slug": "yardley-pa",
+        "state": "PA",
+        "content": "Legacy Masonry provides exceptional masonry services in Yardley, catering to the town's blend of historic and contemporary properties. Our expertise includes brick and stonework, custom fireplaces, and landscape features that elevate any property. Yardley's charming streets and scenic riverfront locations inspire our commitment to quality and aesthetics. Trust us to deliver masonry solutions that stand the test of time and enhance your home's appeal.",
+        "localContext": "Yardley is a quaint riverside town with a strong sense of community and historic architecture.",
+        "nearbyAreas": [
+          "Newtown",
+          "Washington Crossing",
+          "Morrisville"
+        ]
+      }
+    ]
+  },
+  "images": {
+    "hero": "/images/hero.webp",
+    "heroResponsive": {
+      "src": "/images/hero.webp",
+      "srcset": "/images/hero-400w.webp 400w, /images/hero-800w.webp 800w, /images/hero-1200w.webp 1200w, /images/hero.webp 1376w",
+      "sizes": "100vw",
+      "width": 1376,
+      "height": 768
+    },
+    "about": "/images/about.webp",
+    "aboutResponsive": {
+      "src": "/images/about.webp",
+      "srcset": "/images/about-400w.webp 400w, /images/about-800w.webp 800w, /images/about-1200w.webp 1200w, /images/about.webp 1200w",
+      "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+      "width": 1200,
+      "height": 896
+    },
+    "services": {
+      "chimney-rebuilding": "/images/service-chimney-rebuilding.webp",
+      "stone-foundation-repair": "/images/service-stone-foundation-repair.webp",
+      "brick-tuckpointing": "/images/service-brick-tuckpointing.webp",
+      "brick-walkway-installation": "/images/service-brick-walkway-installation.webp",
+      "concrete-parging": "/images/service-concrete-parging.webp"
+    },
+    "servicesResponsive": {
+      "chimney-rebuilding": {
+        "src": "/images/service-chimney-rebuilding.webp",
+        "srcset": "/images/service-chimney-rebuilding-400w.webp 400w, /images/service-chimney-rebuilding-800w.webp 800w, /images/service-chimney-rebuilding-1200w.webp 1200w, /images/service-chimney-rebuilding.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "stone-foundation-repair": {
+        "src": "/images/service-stone-foundation-repair.webp",
+        "srcset": "/images/service-stone-foundation-repair-400w.webp 400w, /images/service-stone-foundation-repair-800w.webp 800w, /images/service-stone-foundation-repair-1200w.webp 1200w, /images/service-stone-foundation-repair.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "brick-tuckpointing": {
+        "src": "/images/service-brick-tuckpointing.webp",
+        "srcset": "/images/service-brick-tuckpointing-400w.webp 400w, /images/service-brick-tuckpointing-800w.webp 800w, /images/service-brick-tuckpointing-1200w.webp 1200w, /images/service-brick-tuckpointing.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "brick-walkway-installation": {
+        "src": "/images/service-brick-walkway-installation.webp",
+        "srcset": "/images/service-brick-walkway-installation-400w.webp 400w, /images/service-brick-walkway-installation-800w.webp 800w, /images/service-brick-walkway-installation-1200w.webp 1200w, /images/service-brick-walkway-installation.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      },
+      "concrete-parging": {
+        "src": "/images/service-concrete-parging.webp",
+        "srcset": "/images/service-concrete-parging-400w.webp 400w, /images/service-concrete-parging-800w.webp 800w, /images/service-concrete-parging-1200w.webp 1200w, /images/service-concrete-parging.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      }
+    },
+    "gallery": [
+      "/images/gallery-0.webp",
+      "/images/gallery-1.webp"
+    ],
+    "galleryResponsive": [
+      {
+        "src": "/images/gallery-0.webp",
+        "srcset": "/images/gallery-0-400w.webp 400w, /images/gallery-0-800w.webp 800w, /images/gallery-0-1200w.webp 1200w, /images/gallery-0.webp 1200w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1200,
+        "height": 896
+      },
+      {
+        "src": "/images/gallery-1.webp",
+        "srcset": "/images/gallery-1-400w.webp 400w, /images/gallery-1-800w.webp 800w, /images/gallery-1-1200w.webp 1200w, /images/gallery-1.webp 1264w",
+        "sizes": "(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw",
+        "width": 1264,
+        "height": 848
+      }
+    ]
+  }
+}
